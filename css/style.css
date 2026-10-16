@@ -131,3 +131,58 @@ footer {
         padding-right: 12px;
     }
 }
+
+/* WorkMate AI portfolio section */
+.workmate-section {
+  padding: 48px 24px;
+  margin: 36px 0;
+  border-radius: 16px;
+  background: #f1f7f5;
+  color: #1b2d2a;
+}
+
+.workmate-label {
+  color: #087c65;
+  font-size: 0.8rem;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+}
+
+.workmate-section h2 {
+  margin-bottom: 12px;
+}
+
+.workmate-tools {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 16px;
+  margin-top: 28px;
+}
+
+.workmate-card {
+  padding: 20px;
+  background: #ffffff;
+  border: 1px solid #dce9e4;
+  border-radius: 12px;
+}
+
+.workmate-card h3 {
+  margin-top: 0;
+  color: #087c65;
+}
+
+.workmate-note {
+  margin-top: 24px;
+  font-size: 0.9rem;
+  color: #536176;
+}
+
+@media (max-width: 600px) {
+  .workmate-tools {
+    grid-template-columns: 1fr;
+  }
+
+  .workmate-section {
+    padding: 28px 18px;
+  }
+}
